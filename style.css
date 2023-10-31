@@ -1,0 +1,209 @@
+*.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    color: white;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    text-align: center;
+
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 124px;
+
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    display: inline;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.header-right a:hover {
+    background-color: rgba(225, 225, 225, 0.5);
+
+
+}
+
+.header-right a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1170px;
+    text-align: center;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.btn-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    opacity: 0.7;
+
+}
+
+.btn-wrapper p {
+    margin: 10px;
+    padding: 12px 24px;
+}
+
+.btn-email {
+    background-color: green;
+    color: #fdfdfd;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.btn-facebook {
+    background-color: rgb(17, 53, 185);
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    opacity: 0.7;
+
+
+}
+
+.btn-twitter {
+    background-color: rgba(12, 166, 255, 0.468);
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    opacity: 0.7;
+
+}
+
+.btn-email:hover {
+    opacity: 1;
+}
+
+.btn-facebook:hover {
+    opacity: 1;
+}
+
+.btn-twitter:hover {
+    opacity: 1;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.lesson-wrapper {
+    height: 600px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-ikon {
+    position: relative;
+}
+
+.lesson-ikon p {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+footer img {
+    width: 125px;
+}
+
+span {
+    background-color: #5dca88;
+    border-radius: 5%;
+    padding: 15px 40px;
+    box-shadow: 0 7px #1a7940fa;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: rgb(29, 160, 77);
+}
+
+span:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px
+}
+
+footer {
+    float: left;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
